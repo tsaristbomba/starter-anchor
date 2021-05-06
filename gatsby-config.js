@@ -109,7 +109,8 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `${__dirname}/src/gatsby-theme-luden/images/icon.jpeg`, // This path is relative to the root of the site.
+        icon: `${__dirname}/src/images/icon.jpeg`, // This path is relative to the root of the site.
+        lang: `pt-br`,
       },
     },
     { resolve: "@teefe/gatsby-theme-luden", options: {} },
